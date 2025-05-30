@@ -21,6 +21,7 @@
 19. 6
 20. 7 (This one workded!)
 21. App screen test
+22. Test 2
 ## About the app
 - "app" folder stores Sparta app
 - uses Node JS v20
