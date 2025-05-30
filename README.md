@@ -8,7 +8,8 @@
 6. Sixth - using different method
 7. Seventh - using different method
 8. Eighth ....
-9. Ninth ...
+9. CONFLICT
+10. Tenth - with conflict
 ## About the app
 - "app" folder stores Sparta app
 - uses Node JS v20
