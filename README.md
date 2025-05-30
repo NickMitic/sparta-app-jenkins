@@ -4,8 +4,9 @@
 2. Second attempt
 3. Third attempt
 4. Fourth
-5. (worked) Fifth
+5. Fifth
 6. Sixth - using different method
+7. Seventh - using different method
 ## About the app
 - "app" folder stores Sparta app
 - uses Node JS v20
