@@ -1,6 +1,19 @@
 # Setting Up a Basic 3-stage CI/CD Pipeline with Jenkins
  This documents explains how we set up our first automated CI/CD pipeline using the Jenkins web UI
 
+- [Setting Up a Basic 3-stage CI/CD Pipeline with Jenkins](#setting-up-a-basic-3-stage-cicd-pipeline-with-jenkins)
+  - [The Basic Set-up and Prerequisites](#the-basic-set-up-and-prerequisites)
+    - [Why do this?](#why-do-this)
+    - [Prerequisites](#prerequisites)
+      - [Github project](#github-project)
+      - [Jenkins Server](#jenkins-server)
+      - [App VM](#app-vm)
+  - [Stage 1: Run tests after git push](#stage-1-run-tests-after-git-push)
+  - [Stage 2: Merge changes from dev branch to main if stage 1 was successful](#stage-2-merge-changes-from-dev-branch-to-main-if-stage-1-was-successful)
+  - [Stage 3: Copy the updated code to the app VM and restart the app](#stage-3-copy-the-updated-code-to-the-app-vm-and-restart-the-app)
+  - [Results](#results)
+
+
  ## The Basic Set-up and Prerequisites
 
  Our pipeline will consist of 3 stages, called Jenkins projects:
